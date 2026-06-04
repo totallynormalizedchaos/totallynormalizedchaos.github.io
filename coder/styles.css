@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "0xProto";
+    src: url("../fonts/0xProto-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "0xProto";
+    src: url("0xProto-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: gray;
+    color: black;
+    font-family: "0xProto", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center
+}
+
+p {
+    font-size: 24px
+}
