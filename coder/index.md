@@ -34,9 +34,37 @@ the games in question?
 * segfault does not exist
 * Unspecified error
 
+## things i've made in code
+### C++:
 
+#### everybody's first program
+```cpp
+int main() {
+    std::cout << "hi worldies\n";
+} // it might look stupid but it's not
+```
 
+#### how to insanity: other programming languages edition (this one is a bit easy because you can just make the voids)
+```cpp
+void HelloWorld(const std::string& text) {
+    std::cout << text << std::endl;
+}
 
+void wait(int ms) {
+    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+}
 
+int main() {
+    HelloWorld("print");
+    wait(2000);
+}
+```
 
-# [h](https://www.youtube.com/watch?v=UAiH9XCWEk4)
+#### HelloWorld() in lua
+```lua
+function HelloWorld(text)
+    print(text)
+end
+
+HelloWorld("print")
+```
