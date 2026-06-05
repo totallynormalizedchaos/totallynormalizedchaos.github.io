@@ -3,6 +3,6 @@ coder/0xProto-Italic.woff2
 coder/0xProto-Regular.woff2
 baldigun/InterVariable-*.woff2
 baldigun/InterVariable.woff2
-package.json
-pnpm-lock.yaml
-node_modules/
+
+InterVariable.woff2
+InterVariable-Italic.woff2
